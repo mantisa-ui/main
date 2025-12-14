@@ -1,0 +1,22 @@
+
+const cloneDeep=(obj)=>{
+    let res= Array.isArray(obj) ? [] : {}
+    const helper=(obj,res)=>{
+        for(let key in obj){
+            if(Array.isArray(obj[key])){
+              res[key] =  helper(obj[key],[])
+            }
+            else if(typeof obj[key] === 'object' && obj[key] ){
+                 res[key] =  helper(obj[key],{})
+            }
+            else {
+                console.log( obj[key])
+                res[key] = obj[key]
+            }
+        }
+        return res
+    }
+    
+    helper(obj,res)
+    return res
+}
