@@ -5,4 +5,8 @@
 
 🧠 I’m looking for help with Open-ended architecture decisions — especially around micro frontends, monorepos, and choosing between server vs client rendering at scale. I'm always open to pairing up with people who can challenge my approach and level me up.
 
+<<<<<<< HEAD
 🌱 I’m currently learning not just new frameworks, but why they exist. Beyond Angular and React, I'm exploring the philosophy behind tools like SolidJS, Qwik, and design-first dev (think Storybook + Figma APIs). Also, brushing up on the backend to understand the full stack deeply.
+=======
+🌱 I’m currently learning not just new frameworks, but why they exist. Beyond Angular and React, I'm exploring the philosophy behind tools like SolidJS, Qwik, and design-first dev (think Storybook + Figma APIs). Also, brushing up on the backend to understand the full stack deeply.
+>>>>>>> c963b9da2b1efa77fa7bb7ee59ac3f4542e51594
