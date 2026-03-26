@@ -1,0 +1,63 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* Calendar container */
+.calendar-container {
+  width: 350px;
+  margin: 30px auto;
+}
+
+/* Header (Prev  Month-Year  Next) */
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Buttons */
+.calendar-header button {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.calendar-header button:hover {
+  background: #f2f2f2;
+}
+
+/* Grid */
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+}
+
+/* Cell */
+.cell {
+  border: 1px solid #ddd;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Weekday header */
+.header {
+  font-weight: bold;
+  background: #f5f5f5;
+}
+
+/* Today highlight */
+.today {
+  background: blue;
+  color: white;
+  border-radius: 50%;
+  font-weight: bold;
+}
